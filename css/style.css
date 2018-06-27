@@ -1,9 +1,10 @@
 
 .banner{
-  background: url(../images/slider/slider1.jpg) 50% 50% no-repeat;
+  background: url(../images/slider/gallery-1460660085-brainwaves.gif) 50% 50% no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 700px;
   color: white;
+  padding: 15px;
 }
 #container{
   max-width:300px;
@@ -29,24 +30,25 @@
 
 }
 .theme .nav-item{
-  color: ghostwhite;
+  color: #e2d7d7;
 }
 .theme .nav-link{
-  color: ghostwhite;
+  color: #e2d7d7;
   font-size: 15px;
 }
 .theme .nav-link:hover{
-  color: dodgerblue;
+  color: snow;
   transition: 20;
 }
 #main .lead::selection{
-  background:navy;
-  color: ghostwhite;
+  background:#e83e8c59;
   font-weight: bold;
 }
 #main h1::selection{
-  background:navy;
-  color: ghostwhite;
+  background:#e83e8c59;
+}
+pre ::selection{
+    background:#e83e8c59;
 }
 .theme .nav-item .current{
   color:dodgerblue;
@@ -89,12 +91,104 @@
   min-width: 100%;
 
 }
+.content-box{
+  background-origin:border-box;
+  max-width: 85%;
+  min-width:70%;
+  min-height: 200px;
+  background: white;
+  margin-bottom:10px;
+  padding: 15px;
+  border-radius: 4px;
 
+        font-size    :12pt;
+
+
+}
+.round{
+  width: 90px;
+margin: 0px 33% 0px;
+  height: 90px;
+  padding: 30px;
+  border-radius: 50px;
+  background: teal;
+  color: white;
+}
+#vr{
+  margin-top: 30px;
+}
+#user{
+  font-size: 35px;
+}
+.primary{
+  box-shadow:15px 12px 15px #888;
+  border:2px solid #007bff;
+}
+.success{
+  box-shadow:15px 12px 15px #888;
+  border:2px solid #28a745;
+}
+.info{
+  box-shadow:15px 12px 15px #888;
+  border:2px solid #17a2b8;;
+}
+.indigo{
+  box-shadow:15px 12px 15px #888;
+  border:2px solid #6610f2;
+}
+.warning{
+  box-shadow:15px 12px 15px #888;
+  border:2px solid #ffc107;
+}
+.teal{
+  box-shadow:15px 12px 15px #888;
+  border:2px solid #20c997;
+}
+.cyan{
+  box-shadow:15px 12px 15px #888;
+  border:2px solid #17a2b8;;
+}
+
+.image1{
+  max-width: 85%;
+  min-width:70%;
+  min-height: 300px;
+  background: url(../images/slider/globe-books-and-green-apple-on-a-white-background-vector-536954.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+.image2{
+  max-width: 85%;
+  min-width:70%;
+  min-height: 300px;
+  background: url(../images/slider/stack-of-books-on-white-background-vector-illustration_MywT_gDu_SB_PM.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+.image3{
+  max-width: 85%;
+  min-width:70%;
+  min-height: 300px;
+  background: url(../images/slider/7189330-an-old-fashioned-clock-on-a-books-isolated-on-a-white-background-time-to-study.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+.last-image{
+  max-width: 100%;
+  min-width:70%;
+  min-height: 300px;
+  background: url(../images/slider/.jpeg) 50% 50% no-repeat;
+  background-size: cover;
+}
+pre{
+  font-size: 35px;
+  color:green;
+}
 .hidden{
   display: none;
 }
 .show{
   display: block;
+}
+.col-sm-6{
+  margin-bottom: 20px;
 }
 .search-bar{
   display: none;
@@ -123,5 +217,25 @@ font-size: 28px;
 }
 #main .lead{
   font-size: 21px;
+}
+.banner{
+  height: 400px;
+}
+.image2{
+  max-width: 85%;
+  min-width:70%;
+  min-height: 300px;
+  background: url(../images/slider/stack-of-books-on-white-background-vector-illustration_MywT_gDu_SB_PM.jpg) 80% 80% no-repeat;
+  background-size: cover;
+}
+.image1{
+  max-width: 85%;
+  min-width:70%;
+  min-height: 300px;
+  background: url(../images/slider/globe-books-and-green-apple-on-a-white-background-vector-536954.jpg) 80% 80% no-repeat;
+  background-size: cover;
+}
+pre{
+  font-size: 23px;
 }
 }
